@@ -1,0 +1,9 @@
+{
+    "input_values":"data/output/output_conv3.json",
+    "output_values":"data/output/output_flat.json",
+    "name": "flatten",
+    "trainable": true,
+    "dtype": "float32",
+    "data_format": "channels_last",
+    "output_shape": [2048]
+}

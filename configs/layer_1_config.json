@@ -1,0 +1,37 @@
+{
+    "name": "conv2d",
+    "trainable": true,
+    "dtype": "float32",
+    "batch_input_shape": [
+        null,
+        32,
+        32,
+        3
+    ],
+    "filters": 32,
+    "kernel_size": [
+        3,
+        3
+    ],
+    "strides": [
+        1,
+        1
+    ],
+    "padding": "valid",
+    "data_format": "channels_last",
+    "dilation_rate": [
+        1,
+        1
+    ],
+    "groups": 1,
+    "activation": "relu",
+    "use_bias": true,
+    "input_values":"data/input/input_data.json",
+    "kernel_values": "data/weights/layer_1_weight.json",
+    "output_shape": [
+        30,
+        30,
+        32
+    ],
+    "output_values": "data/output/output_conv1.json"
+}

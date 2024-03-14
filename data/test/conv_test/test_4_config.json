@@ -1,0 +1,45 @@
+{
+    "name": "conv2d_5",
+    "trainable": true,
+    "dtype": "float32",
+    "filters": 128,
+    "kernel_size": [
+        3,
+        3
+    ],
+    "strides": [
+        1,
+        1
+    ],
+    "padding": "valid",
+    "data_format": "channels_last",
+    "dilation_rate": [
+        1,
+        1
+    ],
+    "groups": 1,
+    "activation": "relu",
+    "use_bias": true,
+    "kernel_initializer": {
+        "module": "keras.initializers",
+        "class_name": "GlorotUniform",
+        "config": {
+            "seed": null
+        },
+        "registered_name": null
+    },
+    "bias_initializer": {
+        "module": "keras.initializers",
+        "class_name": "Zeros",
+        "config": {},
+        "registered_name": null
+    },
+    "kernel_regularizer": null,
+    "bias_regularizer": null,
+    "activity_regularizer": null,
+    "kernel_constraint": null,
+    "bias_constraint": null,
+    "input_values":"data/test/conv_test/test_input_4_data.json",
+    "kernel_values":"data/test/conv_test/test_4_weight.json",
+    "output_values":"data/test/conv_test/test_output_4_data.json"
+}

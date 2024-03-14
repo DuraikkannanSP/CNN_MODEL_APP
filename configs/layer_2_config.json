@@ -1,0 +1,23 @@
+{
+    "name": "max_pooling2d",
+    "trainable": true,
+    "dtype": "float32",
+    "pool_size": [
+        2,
+        2
+    ],
+    "padding": "valid",
+    "strides": [
+        2,
+        2
+    ],
+    "data_format": "channels_last",
+    "output_shape": [
+        15,
+        15,
+        32
+    ],
+    "input_values":"data/output/output_conv1.json",
+    "output_values": "data/output/output_pool1.json"
+}
+
